@@ -13,264 +13,235 @@
         }
         
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            font-family: "Georgia", "Times New Roman", serif;
+            background: #f5f5f5;
             min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 20px;
+            padding: 40px 20px;
+            color: #333;
+            line-height: 1.8;
         }
         
         .container {
-            max-width: 800px;
-            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
             background: white;
-            padding: 50px;
-            border-radius: 16px;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-            animation: fadeIn 0.5s ease;
-        }
-        
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
+            padding: 60px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-top: 4px solid #2c3e50;
         }
         
         .header {
             text-align: center;
-            margin-bottom: 40px;
-        }
-        
-        .icon {
-            font-size: 64px;
-            margin-bottom: 20px;
+            margin-bottom: 50px;
+            padding-bottom: 30px;
+            border-bottom: 2px solid #e0e0e0;
         }
         
         h1 {
-            color: #333;
-            font-size: 32px;
-            margin-bottom: 10px;
-            font-weight: 700;
+            font-size: 28px;
+            color: #2c3e50;
+            font-weight: 600;
+            margin-bottom: 20px;
+            letter-spacing: 0.5px;
         }
         
         .greeting {
-            color: #667eea;
-            font-size: 17px;
-            font-weight: 500;
-            margin: 15px 0;
-            line-height: 1.6;
+            font-size: 16px;
+            color: #34495e;
+            font-style: italic;
+            margin: 20px 0;
         }
         
         .subtitle {
+            font-size: 15px;
             color: #666;
-            font-size: 16px;
-            line-height: 1.6;
+        }
+        
+        .section {
+            margin: 40px 0;
+        }
+        
+        .section-title {
+            font-size: 20px;
+            color: #2c3e50;
+            font-weight: 600;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ddd;
         }
         
         .notice-box {
-            background: #fff3cd;
-            border-left: 5px solid #ffc107;
-            padding: 20px;
+            background: #fff9e6;
+            border-left: 4px solid #f39c12;
+            padding: 25px;
             margin: 30px 0;
-            border-radius: 8px;
         }
         
         .notice-box h3 {
-            color: #856404;
-            margin-bottom: 12px;
+            color: #d68910;
             font-size: 18px;
+            margin-bottom: 15px;
+            font-weight: 600;
         }
         
         .notice-box p {
-            color: #856404;
+            color: #7d6608;
             line-height: 1.8;
-            margin-bottom: 10px;
+            margin-bottom: 12px;
         }
         
         .notice-box a {
-            color: #0066cc;
+            color: #2874a6;
             text-decoration: none;
-            word-break: break-all;
-            font-weight: 500;
+            border-bottom: 1px solid #2874a6;
         }
         
         .notice-box a:hover {
-            text-decoration: underline;
+            color: #1f618d;
+            border-bottom: 2px solid #1f618d;
         }
         
         .info-box {
-            background: #e3f2fd;
-            border-left: 5px solid #2196F3;
-            padding: 20px;
+            background: #f8f9fa;
+            padding: 25px;
             margin: 30px 0;
-            border-radius: 8px;
+            border-left: 4px solid #34495e;
         }
         
         .info-box h3 {
-            color: #1565C0;
-            margin-bottom: 12px;
+            color: #2c3e50;
             font-size: 18px;
+            margin-bottom: 15px;
+            font-weight: 600;
         }
         
         .info-box ol {
-            color: #1565C0;
-            margin-left: 20px;
-            line-height: 2;
+            margin-left: 25px;
+            color: #34495e;
         }
         
         .info-box li {
-            margin-bottom: 8px;
+            margin-bottom: 12px;
+            line-height: 1.8;
         }
         
         .info-box code {
-            background: #fff;
-            padding: 2px 6px;
+            background: #e8e8e8;
+            padding: 2px 8px;
             border-radius: 3px;
-            font-family: monospace;
+            font-family: "Courier New", monospace;
             font-size: 13px;
+            color: #c0392b;
         }
         
         .requirements {
-            background: #f8f9fa;
+            background: #ffffff;
             padding: 25px;
-            border-radius: 12px;
             margin: 30px 0;
+            border: 1px solid #ddd;
         }
         
         .requirements h3 {
-            color: #333;
-            margin-bottom: 15px;
+            color: #2c3e50;
             font-size: 18px;
+            margin-bottom: 15px;
+            font-weight: 600;
         }
         
         .requirements ul {
             list-style: none;
-            padding: 0;
+            padding-left: 0;
         }
         
         .requirements li {
-            padding: 10px 0;
+            padding: 12px 0;
             color: #555;
-            line-height: 1.6;
-            display: flex;
-            align-items: start;
+            line-height: 1.8;
+            padding-left: 30px;
+            position: relative;
         }
         
         .requirements li:before {
-            content: "✓";
-            color: #28a745;
-            font-weight: bold;
-            font-size: 20px;
-            margin-right: 10px;
+            content: "▪";
+            position: absolute;
+            left: 10px;
+            color: #2c3e50;
+            font-size: 18px;
         }
         
         .button-container {
             text-align: center;
-            margin: 40px 0;
+            margin: 50px 0 30px 0;
         }
         
         .primary-button {
             display: inline-block;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: #2c3e50;
             color: white;
-            padding: 18px 50px;
-            font-size: 18px;
+            padding: 16px 45px;
+            font-size: 16px;
             font-weight: 600;
-            border: none;
-            border-radius: 50px;
             text-decoration: none;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+            transition: background 0.3s ease;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
         }
         
         .primary-button:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 6px 25px rgba(102, 126, 234, 0.6);
+            background: #34495e;
         }
         
         .secondary-button {
             display: inline-block;
             background: white;
-            color: #667eea;
-            padding: 15px 40px;
-            font-size: 16px;
+            color: #2c3e50;
+            padding: 14px 35px;
+            font-size: 15px;
             font-weight: 600;
-            border: 2px solid #667eea;
-            border-radius: 50px;
+            border: 2px solid #2c3e50;
             text-decoration: none;
-            cursor: pointer;
             transition: all 0.3s ease;
             margin: 10px;
+            font-family: -apple-system, BlinkMacButtonsFamily, "Segoe UI", Roboto, sans-serif;
         }
         
         .secondary-button:hover {
-            background: #667eea;
+            background: #2c3e50;
             color: white;
         }
         
         .contact-info {
             text-align: center;
-            margin-top: 40px;
+            margin-top: 50px;
             padding-top: 30px;
-            border-top: 2px solid #eee;
-            color: #666;
+            border-top: 1px solid #ddd;
+            color: #777;
+            font-size: 14px;
         }
         
         .contact-info a {
-            color: #667eea;
+            color: #2874a6;
             text-decoration: none;
             font-weight: 600;
         }
         
-        .feature-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 20px;
-            margin: 30px 0;
-        }
-        
-        .feature-card {
-            text-align: center;
-            padding: 20px;
-            background: #f8f9fa;
-            border-radius: 12px;
-            transition: transform 0.3s ease;
-        }
-        
-        .feature-card:hover {
-            transform: translateY(-5px);
-        }
-        
-        .feature-card .emoji {
-            font-size: 40px;
-            margin-bottom: 10px;
-        }
-        
-        .feature-card h4 {
-            color: #333;
-            margin-bottom: 8px;
-            font-size: 16px;
-        }
-        
-        .feature-card p {
-            color: #666;
-            font-size: 14px;
+        .contact-info a:hover {
+            text-decoration: underline;
         }
         
         @media (max-width: 768px) {
             .container {
                 padding: 30px 20px;
             }
+            
             h1 {
-                font-size: 26px;
+                font-size: 24px;
             }
+            
             .primary-button {
-                padding: 15px 35px;
-                font-size: 16px;
                 width: 100%;
+                padding: 16px 20px;
             }
+            
             .secondary-button {
                 width: 100%;
                 margin: 5px 0;
@@ -281,7 +252,6 @@
 <body>
     <div class="container">
         <div class="header">
-            <div class="icon">📋</div>
             <h1>REFN Dataset Access Application</h1>
             <p class="greeting">
                 Dear Applicant, Thank you very much for your interest in the REFN dataset.
@@ -292,104 +262,70 @@
         </div>
 
         <div class="notice-box">
-            <h3>📄 Important: Download & Sign License First</h3>
+            <h3>Important: Download & Sign License First</h3>
             <p>
-                Before submitting your application, please <strong>download and sign</strong> the license agreement:
+                Before submitting your application, please download and sign the license agreement:
             </p>
             <p>
                 <a href="https://github.com/SCUT-ACIG/REFN/raw/main/REFN_Dataset_License_Agreement.pdf" target="_blank">
-                    → REFN_Dataset_License_Agreement.pdf
+                    REFN_Dataset_License_Agreement.pdf
                 </a>
             </p>
             <p style="margin-top: 15px;">
-                After completing the application form, please <strong>upload the signed PDF</strong> in the application system.
+                After completing the application form, please upload the signed PDF in the application system.
             </p>
         </div>
 
         <div class="info-box">
-            <h3>📝 Application Process</h3>
+            <h3>Application Process</h3>
             <ol>
-                <li>Download and read the <strong>license agreement</strong></li>
+                <li>Download and read the license agreement</li>
                 <li>Sign the PDF (handwritten or electronic signature)</li>
-                <li>Click the button below to <strong>fill out the application form</strong></li>
-                <li><strong>Upload the signed PDF</strong> in the application form</li>
+                <li>Click the button below to fill out the application form</li>
+                <li>Upload the signed PDF in the application form</li>
                 <li>Wait for approval (typically 3-5 business days)</li>
             </ol>
         </div>
 
         <div class="requirements">
-            <h3>✓ Eligibility Requirements</h3>
+            <h3>Eligibility Requirements</h3>
             <ul>
                 <li>Must be affiliated with a recognized academic or research institution</li>
-                <li>Dataset will be used for <strong>academic research only</strong></li>
+                <li>Dataset will be used for academic research purposes only</li>
                 <li>No commercial use or redistribution permitted</li>
                 <li>Must comply with all terms in the license agreement</li>
             </ul>
-        </div>
-
-        <div class="feature-grid">
-            <div class="feature-card">
-                <div class="emoji">🎓</div>
-                <h4>Academic Use</h4>
-                <p>For research and educational purposes</p>
-            </div>
-            <div class="feature-card">
-                <div class="emoji">🔒</div>
-                <h4>Secure Process</h4>
-                <p>Your data is protected</p>
-            </div>
-            <div class="feature-card">
-                <div class="emoji">⚡</div>
-                <h4>Fast Review</h4>
-                <p>3-5 business days</p>
-            </div>
-            <div class="feature-card">
-                <div class="emoji">🌍</div>
-                <h4>Global Access</h4>
-                <p>Open to researchers worldwide</p>
-            </div>
-            <div class="feature-card">
-                <div class="emoji">🔬</div>
-                <h4>Peer-reviewed</h4>
-                <p>Supported by published research</p>
-            </div>
-            <div class="feature-card">
-                <div class="emoji">🆓</div>
-                <h4>Free Access</h4>
-                <p>No fees for academic research</p>
-            </div>
         </div>
 
         <div class="button-container">
             <a href="https://wj.qq.com/s2/24664560/fb72/" 
                class="primary-button" 
                target="_blank">
-                📝 Fill Application Form
+                Fill Application Form
             </a>
         </div>
 
-        <div class="button-container">
+        <div class="button-container" style="margin-top: 20px;">
             <a href="https://github.com/SCUT-ACIG/REFN/raw/main/REFN_Dataset_License_Agreement.pdf" 
                class="secondary-button" 
                target="_blank">
-                📄 Download License PDF
+                Download License PDF
             </a>
             <a href="mailto:qchm@scut.edu.cn?subject=[REFN Application] Question" 
                class="secondary-button">
-                ✉️ Contact Us
+                Contact Us
             </a>
         </div>
 
         <div class="contact-info">
             <p>
-                <strong>Questions?</strong> Contact us at 
+                For questions, please contact: 
                 <a href="mailto:qchm@scut.edu.cn">qchm@scut.edu.cn</a>
             </p>
-            <p style="margin-top: 10px; font-size: 14px; color: #999;">
+            <p style="margin-top: 10px;">
                 © 2025 SCUT-ACIG. All rights reserved.
             </p>
         </div>
     </div>
 </body>
 </html>
-
