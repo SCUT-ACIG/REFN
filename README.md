@@ -94,19 +94,7 @@ We established baseline performance using both machine learning and deep learnin
 - **Subject-specific**: Up to 71.5% accuracy (Fear vs. Pride)
 - **Cross-participant**: Up to 62.9% accuracy (Fear vs. Pride)
 
-## 📁 Dataset Structure
 
-```
-REFN/
-├── raw_data/                    # Raw fNIRS signals
-├── preprocessed_data/           # Preprocessed fNIRS data
-├── GSR_data/                    # Galvanic Skin Response data
-├── PPG_data/                    # Photoplethysmographic data
-├── facial_expression/           # Video recordings
-├── sync/                        # Synchronization files
-├── REFN_subjects_descriptions.csv  # Participant information
-└── video.xlsx                   # Stimulus materials list
-```
 
 ## 🛠️ Preprocessing Pipeline
 
