@@ -111,7 +111,7 @@ We welcome contributions to improve classification methods and explore multimoda
 For questions or collaboration inquiries:
 
 - **Email**: qchm@scut.edu.cn
-- **Lab Website**: [SCUT-ACIG]([https://github.com/SCUT-ACIG](https://scut-acig.github.io/))
+- **Lab Website**: [https://scut-acig.github.io/]
 
 
 
