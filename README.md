@@ -66,63 +66,6 @@ REFN (Recognizing Emotions with Functional Near-infrared spectroscopy) is a comp
 - **Video Recording**: Logitech C1000e camera
   - Frontal facial expressions at 60 fps
 
-## 🔬 Research Highlights
-
-### Hemodynamic Response Analysis
-
-Our study reveals distinct oxyhemoglobin (HbO) activation patterns across different emotional states:
-
-- **Pride**: Strong HbO activation, peaking around 10 seconds
-- **Happy**: High initial activation with sustained increase
-- **Neutral**: Stable, moderate HbO levels
-- **Fear**: Lower activation compared to neutral
-- **Sad**: Negative HbO activation, contrasting with positive emotions
-
-### Classification Performance
-
-We established baseline performance using both machine learning and deep learning models:
-
-#### Subject-Specific Classification
-- **5-class**: Up to 32.4% accuracy (CNN)
-- **2-class (Positive/Negative)**: Up to 64.2% accuracy (Transformer)
-
-#### Cross-Participant Classification
-- **5-class**: Up to 28.1% accuracy (LSTM)
-- **2-class (Positive/Negative)**: Up to 57.8% accuracy (Transformer)
-
-#### Pairwise Binary Classification (Best Results)
-- **Subject-specific**: Up to 71.5% accuracy (Fear vs. Pride)
-- **Cross-participant**: Up to 62.9% accuracy (Fear vs. Pride)
-
-
-
-## 🛠️ Preprocessing Pipeline
-
-1. **Motion Artifact Correction**: Spline interpolation method
-   - AMP_Threshold: 0.5
-   - STD_Threshold: 6
-
-2. **Band-pass Filtering**: 0.01-0.2 Hz
-   - Removes heartbeat, respiration, and Mayer wave noise
-
-3. **Concentration Conversion**: Modified Beer-Lambert Law
-   - Converts optical density to HbO/HbR concentrations
-   - DPF (Differential Path Length Factor): 6
-
-4. **Baseline Correction**: 10-second pre-stimulus window
-
-## 🚀 Models Implemented
-
-### Machine Learning
-- k-Nearest Neighbors (KNN)
-- Support Vector Machine (SVM)
-- Random Forest (RF)
-- Linear Discriminant Analysis (LDA)
-
-### Deep Learning
-- Convolutional Neural Network (CNN)
-- Long Short-Term Memory (LSTM)
-- Transformer
 
 ## 📥 Access
 
@@ -188,9 +131,7 @@ For questions or collaboration inquiries:
 - **Email**: qchm@scut.edu.cn
 - **Lab Website**: [SCUT-ACIG](https://github.com/SCUT-ACIG)
 
-## 📜 License
 
-This dataset is made available for academic research purposes. Please refer to the dataset website for detailed terms of use.
 
 ## 🙏 Acknowledgements
 
