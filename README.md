@@ -98,24 +98,6 @@ If you use the REFN dataset in your research, please cite:
   doi={10.1007/978-981-96-5084-2_2}
 }
 ```
-
-## 🔍 Key Findings
-
-1. **Functional Connectivity**: Significant differences observed across five emotions in prefrontal and temporal regions
-
-2. **Individual Variability**: Notable performance differences between participants, highlighting the importance of addressing individual differences
-
-3. **Challenge**: Cross-participant emotion recognition remains challenging, with significant room for improvement in handling inter-participant variability
-
-## 🎓 Applications
-
-- Emotion recognition system development
-- Brain-Computer Interface (BCI) research
-- Affective computing studies
-- Human-Computer Interaction (HCI)
-- Mental health monitoring
-- Neuromarketing research
-
 ## 🤝 Contributing
 
 We welcome contributions to improve classification methods and explore multimodal fusion strategies. Please feel free to:
@@ -129,7 +111,7 @@ We welcome contributions to improve classification methods and explore multimoda
 For questions or collaboration inquiries:
 
 - **Email**: qchm@scut.edu.cn
-- **Lab Website**: [SCUT-ACIG](https://github.com/SCUT-ACIG)
+- **Lab Website**: [SCUT-ACIG]([https://github.com/SCUT-ACIG](https://scut-acig.github.io/))
 
 
 
