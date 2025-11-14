@@ -32,12 +32,33 @@ REFN (Recognizing Emotions with Functional Near-infrared spectroscopy) is a comp
 - **Protocol**: 15 trials per session (3 trials per emotion)
 - **Environment**: Soundproof room with controlled lighting
 
+#### Overall Experimental Setup and Video Stimuli
+
+<div align="center">
+  <img src="Images/pic1.png" alt="Experimental Setup and Video Stimuli" width="800"/>
+  <p><b>Figure 1.</b> (a) Overall experimental setup diagram showing the participant wearing fNIRS equipment in a soundproof room with LED light supplement lamp, fNIRS acquisition equipment, shimmer device, and wireless keyboard. (b) Video stimuli with different emotions - examples of video clips used to elicit Sad, Fear, Happy, Pride, and Neutral emotions.</p>
+</div>
+
+#### Experimental Environment and Protocol
+
+<div align="center">
+  <img src="Images/pic2.png" alt="Experimental Environment and Protocol" width="800"/>
+  <p><b>Figure 2.</b> (a) Experimental environment showing the complete setup with participant, equipment placement, and questionnaire interface. (b) Experiment protocol illustrating the trial structure: Hint of Start (at least 15s content summary) → Video playback (2-4 min) → Self-Assessment and rest period (at least 45s). This sequence repeats for all 15 trials (Trial 1 to Trial 15).</p>
+</div>
+
 ### Data Collection
 
 - **fNIRS System**: 48-channel NirScan (HuiChuang, China)
   - Wavelengths: 730 nm and 850 nm
   - Coverage: Frontal and temporal cortical regions
   - 10/20 international system positioning
+
+#### fNIRS Probe Arrangement
+
+<div align="center">
+  <img src="Images/pic3.png" alt="fNIRS Probe Arrangement" width="800"/>
+  <p><b>Figure 3.</b> (a) A schematic depiction of the fNIRS probe arrangement, where the red and blue circles signify the source and detector, respectively. A total of 31 probes (15 sources and 16 detectors) are positioned with 30mm spacing, centered at FPz position. (b) The topographical representation of the 48 fNIRS recording channels displayed on the standard human cortical surface, covering the frontal and temporal cortical regions.</p>
+</div>
 
 - **Physiological Sensors**: Shimmer3 wearable device
   - GSR and PPG data collection
@@ -115,7 +136,11 @@ REFN/
 - Long Short-Term Memory (LSTM)
 - Transformer
 
-## 📥 Dataset Access
+## 📥 Access
+
+**To download the paper PDF:**
+
+📄 **Paper Download**: [https://link.springer.com/chapter/10.1007/978-981-96-5084-2_2](https://link.springer.com/chapter/10.1007/978-981-96-5084-2_2)
 
 **To obtain the REFN dataset, please visit our official dataset website:**
 
@@ -126,12 +151,6 @@ REFN/
 - Academic use only - please review the terms of use carefully
 - After approval, you will receive download instructions
 - The dataset includes raw data, preprocessed data, and all source code for reproduction
-
-**To download the paper PDF:**
-
-📄 **Paper Download**: [https://link.springer.com/chapter/10.1007/978-981-96-5084-2_2](https://link.springer.com/chapter/10.1007/978-981-96-5084-2_2)
-
-💻 **GitHub Repository**: [https://github.com/SCUT-ACIG/REFN](https://github.com/SCUT-ACIG/REFN)
 
 ## 📝 Citation
 
